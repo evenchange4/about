@@ -1,6 +1,6 @@
 {
 	"NTUIM": "國立台灣大學資訊管理學系暨研究所 (NTUIM)",
-	"TAIPEI": "Taipei City, Taiwan (R.O.C.)",
+	"TAIPEI": "中華民國臺灣臺北市",
 	"CHINESE": "徐 承 志",
 	"ENGLISH": "Michael Hsu",
 	"NAV":{
@@ -20,9 +20,9 @@
 		"NAME": "個 人 簡 歷",
 		"VISIT":"查看更完整的內容：",
 		"DESC": {
-			"1": "Michael is a master student of BAEIR Lab at National Taiwan University. His research interests include Information Retrieval, Data / Text / Web Mining, Machine Learning, Natural Language Processing and Data Mining for BigData. He is also a programmer, a web developer or so-called Rubyist.",
-			"2": "He loves to take participate in technology conference occasionally to keep learning new things. Michael thinks the world where everyone has the power to share knowledge, so he got involved with trying to keep everything in his blog.",
-			"3": "Skill keywords: Ruby、Java、Web development、python、data mining、R、Hadoop"
+			"1": "Michael Hsu 是一個在台灣大學 BAEIR LAB 的碩士生。專業的研究領域包括資訊檢索、資料文字探勘、網路探勘、機器學習、自然語言處理以及針對巨量資料的研究。另外也是一個網頁開發的愛好者，特別是在於 Ruby On Rails 感到熱情，自稱為一個 Rubyist。",
+			"2": "在閒暇的時間，我偶爾會參加一些技術研討會，以保持學習新鮮的事物的心態。我認為世界上的每個人不論學位都擁有分享知識的能力，所以我經常將學習的經歷記錄在部落格上。",
+			"3": "技能關鍵字： Ruby、Java、Web development、python、data mining、R、Hadoop"
 		}
 	},
 	"SKILL":{
@@ -33,21 +33,21 @@
 		"NAME": "教 育",
 		"SUB": "學 無 止 涯",
 		"MBA":{
-			"NAME":"Masters in Business Administration",
+			"NAME":"管理學碩士 (MBA)",
 			"DUE": "September 2013 - Present"
 		},
 		"CLOUD":{
-			"NAME": "Program in Cloud Computing Program",
+			"NAME": "雲端計算趨勢學程",
 			"DUE": "September 2012 - February 2014"
 		},
 		"BBA":{
-			"NAME":"Bachelors in Business Administration",
+			"NAME":"管理學學士 (BBA)",
 			"DUE": "September 2009 - June 2013"
 		},
 		"HIGH":{
-			"NAME": "Senior High School",
-			"SCHOOL":"The Affiliated Jhongli Senior High School of National Central University",
-			"LOCATION":"Taoyuan, Taiwan (R.O.C.)",
+			"NAME": "高級中學",
+			"SCHOOL":"國立中央大學附屬中壢高級中學",
+			"LOCATION":"中華民國臺灣桃園縣",
 			"DUE": "September 2006 - June 2009"
 		}
 	},
@@ -56,22 +56,22 @@
 		"SUB": "繼續往前進",
 		"MEDIATEK":{
 			"NAME": "聯發科技",
-			"TITLE": "Summer Intern",
-			"LOCATION": "Hsinchu City, Taiwan(ROC)",
+			"TITLE": "暑期實習生",
+			"LOCATION": "中華民國臺灣新竹縣市",
 			"DUE": "July 2014 - August 2014",
 			"DESC": ""
 		},
 		"GOGOLOOK":{
 			"NAME": "走著瞧 Whoscall",
-			"TITLE": "Front-End Summer Intern",
+			"TITLE": "前端暑期實習生",
 			"DUE": "July 2013 - December 2013",
-			"DESC": ""
+			"DESC": "主要在於前端網頁設以及資料處理。"
 		},
 		"CLOUD":{
 			"NAME": "雲鼎天秤",
-			"TITLE": "Co-Founder",
+			"TITLE": "共同創辦人",
 			"DUE": "October 2013 - December 2013",
-			"DESC": ""
+			"DESC": "臺大雲端創新應用服務競賽獲得一百萬首獎後所創立的公司，對於線上家教的整合服務，透過平板電腦與學生進行一對一的線上同步教學，致力于創造平等的教育。"
 		}
 	},
 	"PORTFOLIO":{
