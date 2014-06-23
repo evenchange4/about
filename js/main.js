@@ -95,9 +95,9 @@ $('.chart').waypoint(function() {
 		$.vegas('slideshow', {
 			  backgrounds:[
 				{ src:'img/slider/04.jpg', fade:1000 },
-                { src:'http://media-cache-ak0.pinimg.com/originals/17/71/cb/1771cbc35452ec3a67070397cfb027c4.jpg', fade:1000 },
+                { src:'img/slider/01.jpg', fade:1000 },
                 { src:'img/slider/02.jpg', fade:1000 },
-				{ src:'http://media-cache-ec0.pinimg.com/originals/77/a7/0c/77a70c66dfbc0eafce319a56fd3b3444.jpg', fade:1000 }
+				{ src:'img/slider/03.jpg', fade:1000 }
 			  ]
 			})('overlay', {
 			  src:'img/overlays/16.png'
