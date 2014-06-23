@@ -55,15 +55,15 @@
         </div>
         <div class="navbar-collapse collapse" ng-controller="controller">
           <ul class="nav navbar-nav" id="main-menu">
-            <li><a href="#page-welcome" translate>{{'NAV.HOME'}}</a></li>
-            <li><a href="#page-profile" translate>{{'NAV.PROFILE'}}</a></li>
-            <li><a href="#page-skills" translate>{{'NAV.SKILLS'}}</a></li>
-            <li><a href="#page-education" translate>{{'NAV.EDUCATION'}}</a></li>
-            <li><a href="#page-experience" translate>{{'NAV.EXPERIENCE'}}</a></li>
-            <li><a href="#page-portfolio" translate>{{'NAV.PORTFOLIO'}}</a></li>
-            <li><a href="#page-contact" translate>{{'NAV.CONTACT'}}</a></li>
-            <li><a href="" ng-hide="isLand('en')" ng-click="changeLanguage('en')"><i class="fa fa-globe"></i> ENGLISH</a></li>
-            <li><a href="" ng-hide="isLand('zh')" ng-click="changeLanguage('zh')"><i class="fa fa-globe"></i> 中文</a></li>
+            <li><a href="#page-welcome" ng-cloak translate>{{'NAV.HOME'}}</a></li>
+            <li><a href="#page-profile" ng-cloak translate>{{'NAV.PROFILE'}}</a></li>
+            <li><a href="#page-skills" ng-cloak translate>{{'NAV.SKILLS'}}</a></li>
+            <li><a href="#page-education" ng-cloak translate>{{'NAV.EDUCATION'}}</a></li>
+            <li><a href="#page-experience" ng-cloak translate>{{'NAV.EXPERIENCE'}}</a></li>
+            <li><a href="#page-portfolio" ng-cloak translate>{{'NAV.PORTFOLIO'}}</a></li>
+            <li><a href="#page-contact" ng-cloak translate>{{'NAV.CONTACT'}}</a></li>
+            <li><a href="" ng-hide="isLand('en')" ng-cloak ng-click="changeLanguage('en')"><i class="fa fa-globe"></i> ENGLISH</a></li>
+            <li><a href="" ng-hide="isLand('zh')" ng-cloak ng-click="changeLanguage('zh')"><i class="fa fa-globe"></i> 中文</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
