@@ -1,0 +1,96 @@
+{
+	"NTUIM": "國立台灣大學資訊管理學系暨研究所 (NTUIM)",
+	"TAIPEI": "Taipei City, Taiwan (R.O.C.)",
+	"CHINESE": "徐 承 志",
+	"ENGLISH": "Michael Hsu",
+	"NAV":{
+		"HOME":"主 頁",
+		"PROFILE": "簡 歷",
+		"SKILLS":"技 能",
+		"EDUCATION":"教 育",
+		"EXPERIENCE": "經 歷",
+		"PORTFOLIO": "作 品 集",
+		"CONTACT": "聯 絡 我"
+	},
+	"WELCOME":{
+		"NAME":"網頁設計師 & 資料分析師",
+		"CONTACT": "聯 繫 我"
+	},
+	"PROFILE":{
+		"NAME": "個 人 簡 歷",
+		"VISIT":"查看更完整的內容：",
+		"DESC": {
+			"1": "Michael is a master student of BAEIR Lab at National Taiwan University. His research interests include Information Retrieval, Data / Text / Web Mining, Machine Learning, Natural Language Processing and Data Mining for BigData. He is also a programmer, a web developer or so-called Rubyist.",
+			"2": "He loves to take participate in technology conference occasionally to keep learning new things. Michael thinks the world where everyone has the power to share knowledge, so he got involved with trying to keep everything in his blog.",
+			"3": "Skill keywords: Ruby、Java、Web development、python、data mining、R、Hadoop"
+		}
+	},
+	"SKILL":{
+		"NAME": "技 能",
+		"SUB": "藉由不停的反覆的試驗從錯誤中學習"
+	},
+	"EDUCATION":{
+		"NAME": "教 育",
+		"SUB": "學 無 止 涯",
+		"MBA":{
+			"NAME":"Masters in Business Administration",
+			"DUE": "September 2013 - Present"
+		},
+		"CLOUD":{
+			"NAME": "Program in Cloud Computing Program",
+			"DUE": "September 2012 - February 2014"
+		},
+		"BBA":{
+			"NAME":"Bachelors in Business Administration",
+			"DUE": "September 2009 - June 2013"
+		},
+		"HIGH":{
+			"NAME": "Senior High School",
+			"SCHOOL":"The Affiliated Jhongli Senior High School of National Central University",
+			"LOCATION":"Taoyuan, Taiwan (R.O.C.)",
+			"DUE": "September 2006 - June 2009"
+		}
+	},
+	"EXPERIENCE":{
+		"NAME": "經 歷",
+		"SUB": "繼續往前進",
+		"MEDIATEK":{
+			"NAME": "聯發科技",
+			"TITLE": "Summer Intern",
+			"LOCATION": "Hsinchu City, Taiwan(ROC)",
+			"DUE": "July 2014 - August 2014",
+			"DESC": ""
+		},
+		"GOGOLOOK":{
+			"NAME": "走著瞧 Whoscall",
+			"TITLE": "Front-End Summer Intern",
+			"DUE": "July 2013 - December 2013",
+			"DESC": ""
+		},
+		"CLOUD":{
+			"NAME": "雲鼎天秤",
+			"TITLE": "Co-Founder",
+			"DUE": "October 2013 - December 2013",
+			"DESC": ""
+		}
+	},
+	"PORTFOLIO":{
+		"NAME": "作 品 集",
+		"SUB": "熟能生巧，持續努力",
+		"ALL": "全 部",
+		"APP": "手 機 程 式",
+		"WEB": "網 頁",
+		"DESIGN": "設 計",
+		"PHOTO": "攝 影"
+	},
+	"CONTACT":{
+		"NAME": "聯 絡 我",
+		"SUB": "如果你需要更多協助，請在任何時間放心聯絡我",
+		"INFO": "聯繫資訊",
+		"TOUCH": "透過 Mail 取得聯繫",
+		"SUBMIT": "送出郵件",
+		"MAIL": "evenchange4@gmail.com",
+		"PHONE": "(886) 0987-426-660"
+	}
+
+}

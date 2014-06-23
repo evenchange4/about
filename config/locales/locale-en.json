@@ -1,0 +1,96 @@
+{
+	"NTUIM": "Department of Information Management, National Taiwan University",
+	"TAIPEI": "Taipei City, Taiwan (R.O.C.)",
+	"CHINESE": "Cheng-Chih Hsu",
+	"ENGLISH": "Michael Hsu",
+	"NAV":{
+		"HOME":"Home",
+		"PROFILE": "Profile",
+		"SKILLS":"Skills",
+		"EDUCATION":"Education",
+		"EXPERIENCE": "Experience",
+		"PORTFOLIO": "Portfolio",
+		"CONTACT": "Contact"
+	},
+	"WELCOME":{
+		"NAME":"Website Designer & Data Miner",
+		"CONTACT": "Contact"
+	},
+	"PROFILE":{
+		"NAME": "PERSONAL PROFILE",
+		"VISIT":"Visit complete detail:",
+		"DESC": {
+			"1": "Michael is a master student of BAEIR Lab at National Taiwan University. His research interests include Information Retrieval, Data / Text / Web Mining, Machine Learning, Natural Language Processing and Data Mining for BigData. He is also a programmer, a web developer or so-called Rubyist.",
+			"2": "He loves to take participate in technology conference occasionally to keep learning new things. Michael thinks the world where everyone has the power to share knowledge, so he got involved with trying to keep everything in his blog.",
+			"3": "Skill keywords: Ruby、Java、Web development、python、data mining、R、Hadoop"
+		}
+	},
+	"SKILL":{
+		"NAME": "Skill",
+		"SUB": "Learning Everything by Trial and Error"
+	},
+	"EDUCATION":{
+		"NAME": "Education",
+		"SUB": "Live and Learn",
+		"MBA":{
+			"NAME":"Masters in Business Administration",
+			"DUE": "September 2013 - Present"
+		},
+		"CLOUD":{
+			"NAME": "Program in Cloud Computing Program",
+			"DUE": "September 2012 - February 2014"
+		},
+		"BBA":{
+			"NAME":"Bachelors in Business Administration",
+			"DUE": "September 2009 - June 2013"
+		},
+		"HIGH":{
+			"NAME": "Senior High School",
+			"SCHOOL":"The Affiliated Jhongli Senior High School of National Central University",
+			"LOCATION":"Taoyuan, Taiwan (R.O.C.)",
+			"DUE": "September 2006 - June 2009"
+		}
+	},
+	"EXPERIENCE":{
+		"NAME": "Experience",
+		"SUB": "Keep Moving Forward",
+		"MEDIATEK":{
+			"NAME": "MediaTek",
+			"TITLE": "Summer Intern",
+			"LOCATION": "Hsinchu City, Taiwan(ROC)",
+			"DUE": "July 2014 - August 2014",
+			"DESC": ""
+		},
+		"GOGOLOOK":{
+			"NAME": "Gogolook Whoscall",
+			"TITLE": "Front-End Summer Intern",
+			"DUE": "July 2013 - December 2013",
+			"DESC": ""
+		},
+		"CLOUD":{
+			"NAME": "雲鼎天秤",
+			"TITLE": "Co-Founder",
+			"DUE": "October 2013 - December 2013",
+			"DESC": ""
+		}
+	},
+	"PORTFOLIO":{
+		"NAME": "Portfolio",
+		"SUB": "Practice Makes Perfect and Continuing efforts",
+		"ALL": "All",
+		"APP": "Phone App",
+		"WEB": "Website",
+		"DESIGN": "Design",
+		"PHOTO": "Photography"
+	},
+	"CONTACT":{
+		"NAME": "Contact",
+		"SUB": "Please feel free to let us know for any queries",
+		"INFO": "Contact Info",
+		"TOUCH": "Get in Touch",
+		"SUBMIT": "Submit Message",
+		"MAIL": "evenchange4@gmail.com",
+		"PHONE": "(886) 0987-426-660"
+	}
+
+}

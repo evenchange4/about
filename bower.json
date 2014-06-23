@@ -1,0 +1,28 @@
+{
+  "name": "CV_MichaelHsu.tw",
+  "version": "0.0.0",
+  "authors": [
+    "MichaelHsu <evenchange4@gmail.com>"
+  ],
+  "description": "CV website",
+  "keywords": [
+    "CV",
+    "MichaelHsu.tw"
+  ],
+  "license": "MIT",
+  "homepage": "http://michaelhsu.tw/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-translate": "~2.2.0",
+    "angular": "~1.2.18",
+    "angular-translate-loader-partial": "~2.0.0",
+    "angular-translate-loader-static-files": "~2.2.0"
+  }
+}

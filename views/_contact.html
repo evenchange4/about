@@ -1,0 +1,46 @@
+<!-- contact begins -->
+<section id="page-contact" class="page-contact">
+<div class="container">
+      <header class="section-header">
+          <h2 class="section-title"><span>{{'CONTACT.NAME' | translate | uppercase}}</span></h2>
+            <div class="spacer"></div>
+               <p class="section-subtitle">{{'CONTACT.SUB' | translate}} </p>
+      </header>
+  <div class="row">
+    <div class="col-sm-5 contact-info">
+      <h3>{{'CONTACT.INFO' | translate}} </h3>
+      <p><i class="fa fa-map-marker"></i> {{'TAIPEI' | translate}} </p>
+      <p><i class="fa fa-phone"></i> {{'CONTACT.PHONE' | translate}} </p>
+      <p><i class="fa fa-envelope-o"></i> {{'CONTACT.MAIL' | translate}}</p>
+    </div>
+    
+    <div class="col-sm-7">
+      <h3>{{'CONTACT.TOUCH' | translate}} </h3>
+      <form  class="form-horizontal" id="contact-form" action="mailto:evenchange4@gmail.com?subject=[About Michael Hsu]" method="post" enctype="text/plain" target="_blank">
+        <div class="control-group">
+            <label class="control-label" for="name">Name</label>
+            <div class="controls">
+                <input type="text" name="name" id="name" placeholder="Your name" class="form-control input-lg ">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="email">Email Address</label>
+            <div class="controls">
+                <input type="text" name="email" id="email" placeholder="Your email address" class="form-control input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="message">Message</label>
+            <div class="controls">
+                <textarea name="message" id="message" rows="8" class="form-control input-lg"></textarea>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-default btn-lg btn-block"> {{'CONTACT.SUBMIT' | translate | uppercase}} </button>
+        </div>
+      </form><!-- End contact-form -->
+
+    </div>
+  </div><!-- End row -->
+</div>
+</section> <!-- contact ends -->
