@@ -10,7 +10,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif, 'Microsoft JhengHei';
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif, 'DFKai-sb', 'Microsoft JhengHei';
     color:#757575;
 }
 
@@ -31,7 +31,7 @@ a img {
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Oxygen', sans-serif, 'Microsoft JhengHei';
+    font-family: 'Oxygen', sans-serif, 'DFKai-sb', 'Microsoft JhengHei';
     font-weight: 700;
 }
 
