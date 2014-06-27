@@ -33,7 +33,7 @@
   </head>
   <body ng-app="myApp" ng-cloak class="ng-cloak" ng-controller="Pctrl">
   <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
+      <div class="container" ng-show="show">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -69,16 +69,16 @@
             <div class="row">
                 <header class="centered">
                     <h1>{{ 'ENGLISH' | translate | uppercase }}</h1>
-                    <p>{{'WELCOME.NAME' | translate | uppercase }} </p>
+                    <p ng-show="show">{{'WELCOME.NAME' | translate | uppercase }} </p>
                 </header>
-                <div class="social-icons">
+                <div class="social-icons" ng-show="show">
                         <a href="https://twitter.com/evenchange4" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
                         <a href="https://www.facebook.com/evenchange4" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="https://github.com/evenchange4" class="btn btn-round btn-clear btn-github"><i class="fa fa-github-alt"></i></a>
                         <a href="http://michaelhsu.tw/" class="btn btn-round btn-clear btn-rss"><i class="fa fa-rss"></i></a>
 
                 </div>
-                <a href="#page-contact" class="btn btn-default hire-me" translate>{{'WELCOME.CONTACT' | translate | uppercase }} </a>
+                <a href="#page-contact" class="btn btn-default hire-me" translate ng-show="show">{{'WELCOME.CONTACT' | translate | uppercase }} </a>
 
             </div>
         </div>
