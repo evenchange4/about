@@ -77,9 +77,11 @@ $(".navbar").sticky({topSpacing: 0});
     
 $('.chart').waypoint(function() {
     $(this).easyPieChart({
-    	   barColor: '#3498db',
+    	   barColor: '#d95d50',
     	   size: '150',
 			easing: 'easeOutBounce',
+            lineCap: 'butt',
+            lineWidth: 4,
 			onStep: function(from, to, percent) {
 				$(this.el).find('.percent').text(Math.round(percent));
 			}
