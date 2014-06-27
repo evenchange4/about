@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
   connect = require('gulp-connect'),
   concat = require('gulp-concat'),
-  uglify = require('gulp-uglify');
+  uglify = require('gulp-uglify'),
+  minifyCSS = require('gulp-minify-css');
 
 gulp.task('connect', function() {
   connect.server({
@@ -39,10 +40,17 @@ gulp.task('scripts', function() {
 //     .pipe(gulp.dest('build/'))
 // });
 
-gulp.task('compress', function() {
-  gulp.src('build/all.js')
-    .pipe(uglify())
-    .pipe(gulp.dest('build'))
+gulp.task('minify-css', function() {
+  gulp.src('css/*.css')
+    .pipe(concat('all.css'))
+    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(gulp.dest('build/'))
 });
 
-gulp.task('default', ['scripts', 'connect', 'watch']);
+// gulp.task('compress', function() {
+//   gulp.src('build/all.js')
+//     .pipe(uglify())
+//     .pipe(gulp.dest('build'))
+// });
+
+gulp.task('default', ['scripts', 'minify-css', 'connect', 'watch']);
