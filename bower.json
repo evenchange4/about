@@ -23,6 +23,7 @@
     "angular-translate": "~2.2.0",
     "angular": "~1.2.18",
     "angular-translate-loader-partial": "~2.0.0",
-    "angular-translate-loader-static-files": "~2.2.0"
+    "angular-translate-loader-static-files": "~2.2.0",
+    "ngprogress": "~1.0.4"
   }
 }

@@ -29,14 +29,14 @@ gulp.task('watch', function () {
 });
 
 gulp.task('scripts', function() {
-  gulp.src(['js/*/ga.js', 'js/jquery-1.10.2.min.js','bower_components/*/*.js','js/*.js', 'js/*/*.js'])
+  gulp.src(['js/*/ga.js', 'js/jquery-1.10.2.min.js', 'bower_components/*/*.min.js', 'bower_components/*/*/*.min.js', 'js/*.js', 'js/*/*.js'])
     .pipe(concat('all.js'))
     .pipe(uglify())
     .pipe(gulp.dest('build/'))
 });
 
 gulp.task('minify-css', function() {
-  gulp.src('css/*.css')
+  gulp.src(['css/*.css', 'bower_components/*/*.css', 'bower_components/*/*/*.css'])
     .pipe(concat('all.css'))
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('build/'))

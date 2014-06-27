@@ -1,1 +1,1 @@
-var app = angular.module('myApp', ['pascalprecht.translate']);
+var app = angular.module('myApp', ['pascalprecht.translate', 'ngProgress']);

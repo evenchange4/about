@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v3.0.3 (http://getbootstrap.com)
  * Copyright 2013 Twitter, Inc.
@@ -1777,7 +1778,6 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .mfp-ie7 .mfp-content{padding-top:44px}
 .mfp-ie7 .mfp-close{top:0;right:0;padding-top:0}
 body,html{height:100%;width:100%;font-family:'Source Sans Pro',Helvetica,Arial,sans-serif,'Microsoft JhengHei';color:#757575}
-.ng-cloak,.x-ng-cloak,[data-ng-cloak],[ng-cloak],[ng\:cloak],[x-ng-cloak]{display:none!important}
 img{max-width:100%}
 a:link,a:visited{outline:0}
 a:active,a:hover{text-decoration:none}
@@ -1871,3 +1871,9 @@ label.valid{color:#fff;background:#5CB85C;border:thin solid #fff;padding:3px 5px
 .section-header p{font-size:1.2em}
 #grid,#page-skills{text-align:center}
 #page-profile .profile{margin:0 auto 20px}}
+.ng-cloak,.ng-hide,.x-ng-cloak,[data-ng-cloak],[ng-cloak],[ng\:cloak],[x-ng-cloak]{display:none!important}
+ng\:form{display:block}
+.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important}
+.ng-hide-add-active,.ng-hide-remove{display:block!important}
+#ngProgress{margin:0;padding:0;z-index:99998;background-color:green;color:green;box-shadow:0 0 10px 0;height:2px;opacity:0;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+#ngProgress-container{position:fixed;margin:0;padding:0;top:0;left:0;right:0;z-index:99999}
