@@ -31,14 +31,9 @@ gulp.task('watch', function () {
 gulp.task('scripts', function() {
   gulp.src(['bower_components/*/*.js','js/*.js', 'js/*/*.js'])
     .pipe(concat('all.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('build/'))
 });
-
-// gulp.task('scripts-bower', function() {
-//   gulp.src('bower_components/*/*.js')
-//     .pipe(concat('all2.js'))
-//     .pipe(gulp.dest('build/'))
-// });
 
 gulp.task('minify-css', function() {
   gulp.src('css/*.css')
@@ -47,10 +42,5 @@ gulp.task('minify-css', function() {
     .pipe(gulp.dest('build/'))
 });
 
-// gulp.task('compress', function() {
-//   gulp.src('build/all.js')
-//     .pipe(uglify())
-//     .pipe(gulp.dest('build'))
-// });
 
 gulp.task('default', ['scripts', 'minify-css', 'connect', 'watch']);
