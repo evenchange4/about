@@ -29,7 +29,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('scripts', function() {
-  gulp.src(['js/jquery-1.10.2.min.js','bower_components/*/*.js','js/*.js', 'js/*/*.js'])
+  gulp.src(['js/*/ga.js', 'js/jquery-1.10.2.min.js','bower_components/*/*.js','js/*.js', 'js/*/*.js'])
     .pipe(concat('all.js'))
     .pipe(uglify())
     .pipe(gulp.dest('build/'))
