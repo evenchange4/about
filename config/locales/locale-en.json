@@ -22,7 +22,7 @@
 		"DESC": {
 			"1": "Michael is a master student of BAEIR Lab at National Taiwan University. His research interests include Information Retrieval, Data / Text / Web Mining, Machine Learning, Natural Language Processing and Data Mining for BigData. He is also a programmer, a web developer or so-called Rubyist.",
 			"2": "He loves to take participate in technology conference occasionally to keep learning new things. Michael thinks the world where everyone has the power to share knowledge, so he got involved with trying to keep everything in his blog.",
-			"3": "Skill keywords: Ruby、Java、Web development、python、data mining、R、Hadoop"
+			"3": "Skill keywords: Ruby, Java, Web development, python, data mining, R, Hadoop, Angular.js"
 		}
 	},
 	"SKILL":{
@@ -71,7 +71,7 @@
 			"NAME": "雲鼎天秤",
 			"TITLE": "Co-Founder",
 			"DUE": "October 2013 - December 2013",
-			"DESC": "臺大雲端創新應用服務競賽獲得一百萬首獎後所創立的公司，對於線上家教的整合服務，透過平板電腦與學生進行一對一的線上同步教學，致力于創造平等的教育。"
+			"DESC": "We got one million dollar as venture capital fund from 臺大雲端創新應用服務競賽, we devote ourselves to equal opportunity in education, and we provide a service that any teacher could offer one-on-one tutoring on our iPad APP TutorNTU which it is a remote synchronously interactive network teaching platform."
 		}
 	},
 	"PORTFOLIO":{
