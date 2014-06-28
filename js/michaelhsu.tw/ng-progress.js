@@ -11,7 +11,7 @@ app.controller('Pctrl', ['$scope', '$timeout','ngProgress', function($scope, $ti
     $timeout(function(){
         ngProgress.complete();
         $scope.show = true;
-    }, 1000);
+    }, 800);
     
 }])
 
