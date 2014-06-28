@@ -43,7 +43,11 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('minify-css', function() {
-  gulp.src(['css/*.css', 'bower_components/*/*.css', 'bower_components/*/*/*.css'])
+  gulp.src([
+    'css/*.css', 
+    'css/colors/red.css', 
+    'bower_components/*/*.css', 
+    'bower_components/*/*/*.css'])
     .pipe(concat('all.css'))
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('build/'))

@@ -810,7 +810,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .nav-pills>li{float:left}
 .nav-pills>li>a{border-radius:4px}
 .nav-pills>li+li{margin-left:2px}
-.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{color:#fff;background-color:#428bca}
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{color:#fff}
 .nav-stacked>li{float:none}
 .nav-stacked>li+li{margin-top:2px;margin-left:0}
 .nav-justified{width:100%}
@@ -889,8 +889,6 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .navbar-default .navbar-brand{color:#777}
 .navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#5e5e5e;background-color:transparent}
 .navbar-default .navbar-nav>li>a,.navbar-default .navbar-text{color:#777}
-.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{color:#333}
-.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#555}
 .navbar-default .navbar-nav>.disabled>a,.navbar-default .navbar-nav>.disabled>a:focus,.navbar-default .navbar-nav>.disabled>a:hover{color:#ccc;background-color:transparent}
 .navbar-default .navbar-toggle{border-color:#ddd}
 .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#ddd}
@@ -1834,7 +1832,7 @@ h1,h2,h3,h4,h5,h6{font-family:Oxygen,sans-serif,'Microsoft JhengHei';font-weight
 .section-subtitle{text-align:center;padding:30px 0}
 .form-control{box-shadow:none;-webkit-box-shadow:none;border:none}
 .btn.btn-default{margin:40px auto 0;background:0 0;position:relative;color:#fff;font-size:1em;text-transform:uppercase;font-weight:600;text-align:center;padding:12px 26px;cursor:pointer;border:2px solid #4cddf3;border-radius:0;letter-spacing:2px;pointer-events:auto;border-color:#fff;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
-.btn.btn-default:active,.btn.btn-default:hover{background:#fff;border-color:#fff;color:fff}
+.btn.btn-default:active,.btn.btn-default:hover{background:#fff;border-color:#fff}
 .input-lg,button,input{border-radius:0}
 .control-group.error input,.control-group.error select,.control-group.error textarea{border-color:#b94a48;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}
 .control-group.error .checkbox,.control-group.error .radio,.control-group.error input,.control-group.error select,.control-group.error textarea{color:#b94a48}
@@ -1871,6 +1869,12 @@ label.valid{color:#fff;background:#5CB85C;border:thin solid #fff;padding:3px 5px
 .section-header p{font-size:1.2em}
 #grid,#page-skills{text-align:center}
 #page-profile .profile{margin:0 auto 20px}}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover,a:active,a:hover,a:link,a:visited{color:#d95d50}
+#grid .mix .overlay,.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover,.spacer{background:#d95d50}
+#page-contact{background:#d95d50;color:#fff}
+#page-contact .spacer{background:#fff}
+#page-contact .section-title{color:#fff}
+.btn.btn-default:active,.btn.btn-default:hover{color:#d95d50}
 .ng-cloak,.ng-hide,.x-ng-cloak,[data-ng-cloak],[ng-cloak],[ng\:cloak],[x-ng-cloak]{display:none!important}
 ng\:form{display:block}
 .ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important}
